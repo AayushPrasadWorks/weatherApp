@@ -23,4 +23,9 @@
    ```
 
 5. If you want to run a docker container verison of the server
-   go to the scripts folder, and:
+   go to the scripts folder, and run the scripts:
+   ```
+   ./buildImage.sh
+   ./runner.sh
+   
+   ```
