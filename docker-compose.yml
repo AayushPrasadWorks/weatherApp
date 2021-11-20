@@ -1,0 +1,19 @@
+version: "3.7"
+services:
+  backend:
+    build: ./app
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./app:/app
+    environment:
+      FLASK_ENV: development    
+  frontend:
+    build: ./ui
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+    
+

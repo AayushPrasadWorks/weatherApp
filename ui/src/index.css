@@ -7,7 +7,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.get-location {
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5rem;
+  box-shadow: 10px 10px 10px #C0C0;
+}
+
+.weatherBox {
+  display: flex;
+  justify-content: space-around;
+}
+.wTypeBox {
+  flex: 0 0 10%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px black;
+  border-style: solid;
+}
+
